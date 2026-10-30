@@ -1,0 +1,17 @@
+package com.greensnow.worker.model.enums;
+
+public enum TrackingNotificationType {
+    WORKER_EN_ROUTE,
+    WORKER_ARRIVED,
+    WORK_STARTED,
+    WORK_PAUSED,
+    WORK_RESUMED,
+    MILESTONE_COMPLETED,
+    EXTENSION_REQUESTED,
+    EXTENSION_APPROVED,
+    EXTENSION_REJECTED,
+    WORK_COMPLETED,
+    GEOFENCE_EXIT,
+    LOCATION_SIGNAL_LOST,
+    OVERRUN_WARNING
+}
